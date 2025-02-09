@@ -1,0 +1,62 @@
+* {
+    outline: solid red;
+    
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: 48px;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 60px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.hero-main {
+    color: white;
+}
+
+.flex-wrapper-top {
+    display: flex;
+    
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+
+}
+
+.header-link-container {
+    display: flex;
+    gap: 8px;
+    
+}

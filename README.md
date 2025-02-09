@@ -1,1 +1,1 @@
-# landing-page
+In this project, I will be creating a simple landing page to showcase the skills i have learned so far.
