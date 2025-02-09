@@ -1,8 +1,10 @@
-
-
+* {
+    outline: solid red;
+}
 
 body {
     font-family: sans-serif;
+    background-color: #1F2937;
 }
 
 .header {
@@ -30,6 +32,8 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     padding: 60px;
+    flex: 1;
+    
 }
 
 img {
@@ -40,7 +44,9 @@ img {
 
 .hero-main {
     color: white;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .flex-wrapper-top {
@@ -72,3 +78,43 @@ img {
 .image-container {
     display: flex;
 }
+
+.middle {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+}
+
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding-bottom: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 150px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    outline: solid #3882F6;
+    border-radius: 20px;
+    background-color: white;
+}
+
