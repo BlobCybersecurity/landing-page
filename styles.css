@@ -1,7 +1,5 @@
-* {
-    outline: solid red;
-    
-}
+
+
 
 body {
     font-family: sans-serif;
@@ -37,14 +35,18 @@ body {
 img {
     width: 300px;
     height: auto;
+
 }
 
 .hero-main {
     color: white;
+    
 }
 
 .flex-wrapper-top {
     display: flex;
+    gap: 24px;
+    padding-bottom: 40px;
     
 }
 
@@ -52,11 +54,21 @@ img {
     background-color: #3882F6;
     color: white;
     border-radius: 8px;
-
+    padding: 10px;
+    width: 120px;
+    
 }
 
 .header-link-container {
     display: flex;
     gap: 8px;
     
+}
+
+.subtext {
+    font-weight: lighter;
+}
+
+.image-container {
+    display: flex;
 }
