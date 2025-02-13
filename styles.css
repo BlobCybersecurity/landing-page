@@ -87,6 +87,7 @@ img {
     padding-top: 32px;
     padding-bottom: 200px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .title {
@@ -110,7 +111,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    flex-wrap: wrap;
 }
 
 .box {
@@ -125,8 +126,20 @@ img {
     display: flex;
     background-color: #E5E7EB;
     margin-top: 200px;
-    
+    padding: 100px;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
 
 }
 
