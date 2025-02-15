@@ -88,6 +88,7 @@ img {
     padding-bottom: 200px;
     justify-content: space-between;
     flex-wrap: wrap;
+   
 }
 
 .title {
@@ -140,6 +141,54 @@ img {
     align-self: flex-end;
     font-weight: bold;
     font-size: 20px;
+
+}
+
+.down {
+    margin-top: 100px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blue-container {
+    display: flex;
+    gap: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding-left: 90px;
+    padding-bottom: 30px;
+    
+}
+
+.bottom-sign-up {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    width: 120px;
+    outline: white;
+    height: 50px;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 90px;
+}
+
+.left {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 28px;
+    display: flex;
+    justify-content: center;
 
 }
 
